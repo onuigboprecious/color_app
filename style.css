@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Sora', sans-serif;
+  background: #f1f1f1;
+  color: #000;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-family: 'Sora';
+}
+nav {
+  background: #f1f1f1;
+  height: 4rem;
+  display: grid;
+  align-items: center;
+}
+.nav-center {
+  width: 90vw;
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-center .nav-container {
+  margin-bottom: 0;
+  color: #7c74eb;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links li {
+  margin: 5px;
+}
+.nav-container {
+  text-decoration-style: none;
+  display: flexbox;
+}
+.main {
+  align-items: center;
+  text-align: center;
+  padding-top: 5cm;
+  place-items: center;
+}
+.main {
+  display: grid;
+  place-items: center;
+}
+.container {
+  text-align: center;
+}
+.container h2 {
+  margin-left: 13cm;
+  margin-right: 13cm;
+  background-color: #000;
+  color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2.5rem;
+}
+.container span {
+  color: #4f4ff1;
+}
+.main button {
+  font-size: 25px;
+}
+.main .btn {
+  border-radius: 10px;
+  padding: 5px;
+}
+.main .btn:hover {
+  color: #7c74eb;
+}
